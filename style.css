@@ -1,0 +1,343 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+  scroll-behavior:smooth;
+}
+
+/* body */
+body {
+  font-family: sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+/* h1見出し */
+h1{
+  background-image:url(ht.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:1100px;
+  }
+
+h1 {
+  color:#B49484;
+  text-shadow: 3px 3px 2px #e8dfd9;
+  font-size: 80px;/* フォントの大きさ */
+  font-weight: lighter;
+  font-family: cursive;/* フォントの種類 */;
+  text-align: center;/* 文字・画像を中央にそろえる */
+  padding: 180px;/* 内側の余白 */
+  margin: 0px;/* 外側の余白 */
+}
+
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image:url(back.JPG);
+  background-position: center;
+}
+
+header img{
+  max-height:100%;
+  max-width:100%;
+  height:600px;
+  width: 800px;
+  }
+
+
+
+nav{
+  list-style-type: none;
+  overflow: hidden;
+  background-image: url(back.JPG);
+  padding-top:30px;
+}
+  
+  nav ul{
+    color: #A57C65;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 80px;
+  }
+
+nav li{
+  width:180px;
+  height: 40px;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  font-size:24px;
+  white-space: nowrap;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-decoration: underline;
+  text-decoration-color:#CAB2A5;
+  text-decoration-thickness:3px;
+  text-decoration-style:dotted;
+  text-underline-offset:10px;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #A57C65;
+    }
+    
+  nav a:hover {
+    color: #CAB2A5;
+    text-decoration-color:#CAB2A5;
+    }
+    
+.umm{
+  border-right-style: solid;
+  border-width: 40px;
+  border-color: #000000;
+  }
+     
+
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+.mm {
+  background-image: url(back.JPG); /* 背景画像 */
+  color: #A57C65;
+  padding: 30px;  
+}
+
+/* h2見出し */
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+/* 段落 */
+.mm div {
+  font-size: 25px;
+  border-color: #FFFFFF;
+  width:70%;
+  padding: 25px 30px 45px 50px;
+  border-color: #A0B084;
+  border-style: dashed;
+  border-radius: 30px;
+  height: 320px;
+}
+
+.mm h5 {
+  padding-bottom: 80px;
+  padding-right: 1px;
+  padding-left: 610px;
+  }
+      
+
+/* 画像 */
+.mm img {
+  float: right;/* 画像や箱の回り込み */
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+.mmm{
+  margin-left:45px;
+  }
+
+.price img{
+  float: right;
+  padding-right: 190px;
+  }
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.photo {
+  padding: 30px 50px 50px 50px;
+  background-image: url(back.JPG);
+}
+
+.ii{
+  margin-left: 40px;
+  }
+
+/* h2見出し */
+.photo h2 {
+  color: #A57C65;
+  border-color: #A57C65;
+}
+
+/* h3見出し */
+.photo h3 {
+  color: #A57C65;
+}
+
+.photo h5{
+  color: #A57C65;
+  }
+
+/* 段落 */
+.photo p {
+  color: #A57C65;
+  clear: left;/* 画像や箱の回り込みをやめる */
+}
+
+.mmm ul{
+  list-style-type: none;
+  }
+
+/* 大きな箱 */
+.big {
+  background-image: url(back.JPG);
+  width: 430px;/* 横幅 */
+  padding: 20px;
+  margin: 20px;
+  margin-right: 360px;
+  margin-top: 175px;
+  float: right;
+  border-style: dotted;
+  border-color:#A0B084;
+  transform: rotate(2deg);/* 回転させる */
+}
+
+.prr{
+  text-decoration:underline;
+  text-decoration-color:#CFD6B1;
+  text-decoration-thickness:3px;
+  text-underline-offset:6px;
+  }
+  
+  .mf{
+    clear: left;
+    float: left;
+    }
+
+/* 小さな箱 */
+.small {
+  background-image: url(back.JPG);
+  width: 300px;
+  padding:20px;
+  padding-bottom:5px;
+  margin: 25px;
+  border-style: dotted;
+  border-color:#A0B084;
+  border-width:5px:
+}
+
+.imm{
+  text-decoration:underline;
+  text-decoration-color:#CFD6B1;
+  text-decoration-thickness:3px;
+  text-underline-offset:6px;
+  }
+
+/* 箱 */
+.box {
+  float: left;
+  color:#A57C65;
+}
+
+.kbb{
+  text-decoration:underline;
+  text-decoration-color:#CFD6B1;
+  text-decoration-thickness:3px;
+  text-underline-offset:6px;
+}
+
+.photo p{
+  margin-left: 25px;
+  }
+
+.big h5{
+  font-size: 15px;
+  }
+  
+  .ppap{
+    padding-bottom:0px;
+    margin-bottom:0px;
+    }
+
+
+/* ===== 値段表のスタイル ===== */
+/* セクション */
+.price {
+  padding: 30px;
+  background-image: url(back.JPG);
+  color: #A57C65;
+}
+
+/* h2見出し */
+.price h2 {
+  color: #A57C65;
+  border-color: #A57C65;
+}
+
+/* 表 */
+.price table {
+  background-image: url(back.JPG);
+  border-collapse: collapse;/* 表の隙間（すきま） */
+  width: 50%;
+}
+
+/* 表のセル */
+.price td {
+  border: 2px dotted #B7C2A2;
+  padding: 15px;
+}
+
+/* 表の見出しセル */
+.price th {
+  border: 2px dotted #B7C2A2;
+  padding: 10px;
+  text-align: left;
+  background-image: url(bacc.JPG);
+}
+
+
+
+/* ===== アクセス情報のスタイル ===== */
+/* セクション */
+.access {
+  padding: 30px;
+  background-image: url(back.JPG);
+  height: 400px;
+  color:#A57C65;
+}
+
+/* h3見出し */
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0px;
+}
+
+/* リスト */
+.access ul {
+  list-style-type: none;/* リストのマーカー */
+  padding-left: 40px;
+}
+
+.access li{
+  font-size: 25px;
+  }
+  
+  .ppp{
+    font-size: 20px;
+    padding-left: 55px;
+  }
+    
+
+
+/* 箱 */
+.access div {
+  float: left;
+  width: 50%;
+}
+
+iframe{
+  aspect-ratio:9/9;
+  }
+  
+  .oo{
+  margin-bottom: 20px;
+}
